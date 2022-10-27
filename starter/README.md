@@ -27,13 +27,13 @@ To get started with this project, simply pull the repository and import the proj
 
 * For the most part, the TODOs in the project will guide you through getting the project completed. There is a general package architecture and *most* files are present. 
 * Hints are provided for tricky parts of the application that may extend beyond basic Android development skills.
-* As databinding is integral to the project architecture, it is important to be familiar with the IDE features such s cleaning and rebuilding the project as well as invalidating caches. 
+* As databinding is integral to the project architecture, it is important to be familiar with the IDE features such as cleaning and rebuilding the project as well as invalidating caches. 
 
 ## Suggested Workflow
 
-* It is recommend you save all beautification until the end of the project. Ensure functionality first, then clean up UI. While UI is a component of the application, it is best to deliver a functional product.
+* It is recommended you save all beautification until the end of the project. Ensure functionality first, then clean up UI. While UI is a component of the application, it is best to deliver a functional product.
 * Start by getting all screens in the application to navigate to each other, even with dummy data. If needed, comment out stub code to get the application to compile. You will need to create actions in *nav_graph.xml* and UI elements to trigger the navigation. 
-* Create an API key and begin work on the Elections Fragment  and associated ViewModel. 
+* Create an API key and begin work on the Elections Fragment and associated ViewModel. 
 	* Use the elections endpoint in the Civics API and requires no parameters.
 	* You will need to create a file to complete the step.
 	* This will require edits to the Manifest.
